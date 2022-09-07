@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<!--
+	Paradigm Shift by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Stock Analytica</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section class="intro">
+						<header>
+							<h1>Stock Analytica</h1>
+							<h3>A Data Science passion project by <a href="https://twitter.com/ajlkn">Jose Cuellar Gonzalez</a> </h3>
+						</header>
+						<div class="content">
+							<span class="image fill" data-position="center"><img src="images/pic01.jpg" alt="" /></span>
+						</div>
+					</section>
+
+				<!-- Section -->
+					<section id="first">
+						<header>
+							<h2>Video Showcase</h2>
+						</header>
+						<div class="content">
+							<p> This is a video showcase of my passion project, - Stock Analytica. Stock Analytica is a proprietary tool that web scrapes any publicly traded company's financial statements to gather key data and create important statistics or visualizations that are commonly looked at by CFAs. I also apply my own statistical spin to help valuate stocks. All of the data is webscraped from YahooFinance, MarketWatch, MacroTrends, or the SEC.</p>
+							
+						</div>
+					</section>
+
+				<!-- Section -->
+					<section>
+						<header>
+							<h2>Home</h2>
+						</header>
+						<div class="content">
+							<p> This is the Home page. It is the first thing one looks at when booting up Stock Analytica. It contains a given stock's 20 year price history. Followed underneath by a description of the company's bussiness functions. Followed by important and/or interesting statistics such as the trailing PE ratio. You may have noticed that there's an input bar at the top right corner, there you can enter any ticker symbol to gather all neccessary data to generate insights. Finally, all charts are interactive where you can hover any data point and zoom in!</p>
+							<video width = "600" controls >
+								<source src="images/Home_Showcase.mp4" type="video/mp4">
+							</video>
+							<span class = "image main" src = "images/" alt = "" /></span>
+							
+						</div>
+					</section>
+
+				<!-- Section -->
+					<section>
+						<header>
+							<h2>Financial Statements</h2>
+						</header>
+						<div class="content">
+							<p>Stock Analytica creates, under the tabs: Balance Sheet, Income Statement, & Cashflow Statement, adhoc analysis of the 3 main Financial Statements that investors look at when investing in a company.
+								In the Balance Sheet tab, you'll find 5yr timeseries charts that'll display the: Total Assets, Total Liabilities, Current Assets, Current Liabilities, & Total Debt.
+								In the Income Statement tab, you'll find 5yr timeseries charts that'll display the: Total Revenue, Net Income, Shares Outstanding, & Quarterly EPS. In the Cashflow Statement tab, you'll find 5yr timeseries charts that'll display the: Free Cashflow, 
+								Net Investing Cashflow, & Net Investing V. Free Cashflow.
+							</p>
+							<video width = "600" controls >
+								<source src="images/Fundamentals_Showcase.mp4" type="video/mp4">
+							</video>
+
+				<!-- Section -->
+					<section>
+						<header>
+							<h2>CFA Ratios</h2>
+						</header>
+						<div class="content">
+							<p>Stock Analytica creates, under the tabs: Profitability, Liquidity, Solvency, & Financial Risk Ratios, some of the Financial Ratios that are covered in the CFA examinations. 
+								In the Profitability Ratios tab, you'll find the 5yr timeseries charts of the: Profit Margins, ROE, & ROA. 
+								In the Liquidity Ratios tab, you'll find the 5yr timeseries charts of the: Total Ratios, Current Ratios, & Quick Ratios. 
+								In the Solvency Ratios tab, you'll find the 5yr timeseries charts of the: Coverage Ratios, Debt-to-Assets Ratios, & Equity Ratios.
+								In the Financial Risk Ratios tab, you'll find the 5yr timeseries charts of the: Debt-to-Capital Ratios & Debt-to-Equity Ratios.
+							</p>
+							<video width = "600" controls >
+								<source src="images/CFA_Showcase.mp4" type="video/mp4">
+							</video>
+						</div>
+					</section>
+
+							<!-- Section -->
+								<section>
+									<header>
+										<h2>Statistical Spin</h2>
+									</header>
+									<div class="content">
+										<p>Stock Analytica creates, under the tabs: Dividend Charts, Valuation Ratio Charts, Macro Economic Charts, & Insider Trading Chart, unique statistics & visualizations that I myself find interesting that may not be coming with other investors.
+											In the Dividend Charts tab, you'll see graphs that solely have to do with a firm's dividend such as its: Divdiend History, Trailing Divdiends, Dividend % change (year over year), Yield History, & Payout Ratios.
+											In the Valuation Ratio Charts you'll see the empirical distribution of EPS % surprise, essentially how far off the actual EPS reported was to the Analysts' expected EPS. From there the data is Bootstrapped in order 
+											to create a Mean Gaussian Distribution of the EPS in aggreement to the Central Limit Theorem, this is achieved by random resampling numerous times and calculating the mean EPS % surprise to create said Mean Gaussian distribution.
+											Once the Mean Gaussian Distribution is created, a 95% confidence interval is constructed where the lower bound is treated as pessimistic correction to the analysts' upcoming EPS expectation and the upper bound is treated as the optimistic correction.
+											A Shapiro's Wilk Test is conducted to prove Normality of the Bootstrapped Distribution. The Boxplot and 5-Number Summary display the PE ratio through out 20yrs agains the corrected PE ratios & Trailing PE ratio.
+											In the Macro Economic Charts tabs, there are Pearson & Spearman Correlations between the Stock's price movements against its EPS, FED Balance Sheet, US GDP, or the SP500 price movements.
+											In the Insider Trading Chart tab, there's a timeseries of the buys and sells done by higher ups in a firm, data gathered by openinsider.com. 
+										</p>
+										<video width = "600" controls >
+											<source src="images/StatisticalSpin_Showcase.mp4" type="video/mp4">
+										</video>
+									</div>
+								</section>
+						</div>
+					</section>
+
+				<!-- Section -->
+					<section>
+						<header>
+							<h2>Get in touch</h2>
+						</header>
+						<div class="content">
+							<img src="images/Headshot.png" width="400" height="500"> 
+						</div>
+						<footer>
+							<ul class="items">
+								<li>
+									<h3>Email</h3>
+									<a href="#">josecuellarmanuel750@gmail.com</a>
+								</li>
+								<li>
+									<h3>Phone</h3>
+									<a href="#">(415) 518-7503</a>
+								</li>
+								
+								<li>
+									<h3>LinkedIn: </h3>
+									<a> https://www.linkedin.com/in/jose-cuellar-gonzalez-460137172/</a>
+								</li>
+
+								<li>
+									<h3>GitHub: </h3>
+									<a> https://github.com/jcuel005/Data-Science-Projects</a>
+								</li>
+							</ul>
+						</footer>
+					</section>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
